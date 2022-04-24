@@ -84,3 +84,29 @@ insert into employees (employee_name) values ('Pier');
 insert into employees (employee_name) values ('Corbett');
 insert into employees (employee_name) values ('Shel');
 insert into employees (employee_name) values ('Jilleen');
+
+
+
+--задание два
+
+create table salary (
+id serial primary key,
+monthly_salary Varchar(50) not null
+);
+
+insert into salary (monthly_salary) values ('1000');
+insert into salary (monthly_salary) values ('1100');
+insert into salary (monthly_salary) values ('1200');
+insert into salary (monthly_salary) values ('1300');
+insert into salary (monthly_salary) values ('1400');
+insert into salary (monthly_salary) values ('1500');
+insert into salary (monthly_salary) values ('1600');
+insert into salary (monthly_salary) values ('1700');
+insert into salary (monthly_salary) values ('1800');
+insert into salary (monthly_salary) values ('1900');
+insert into salary (monthly_salary) values ('2000');
+insert into salary (monthly_salary) values ('2100');
+insert into salary (monthly_salary) values ('2200');
+insert into salary (monthly_salary) values ('2300');
+insert into salary (monthly_salary) values ('2400');
+insert into salary (monthly_salary) values ('2500');
